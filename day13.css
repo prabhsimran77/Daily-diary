@@ -1,0 +1,181 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    font-weight: 700;
+    margin: auto;
+}
+nav div img{
+    width: 350px;
+}
+.heading{
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    background-image: url(https://camover.in/images/inner_title_bg.jpg);
+    justify-content: center;
+}
+
+.content{
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+.navbar-btn{
+    margin:0px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.navbar-btn:hover{
+    background-color: rgb(255, 187, 59);
+    color: white;
+    cursor: pointer;
+}
+.enroll-btn{
+    padding: 15px 30px;
+    background-color: rgb(255, 187, 59);
+    border-radius: 3px;
+    color: white;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.enroll-btn:hover{
+background-color: blue;
+}
+.main{
+    border: 2px solid rgb(255, 187, 59);
+    width: 60vw;
+    margin: auto;
+    margin-top: 50px;
+    background-color:rgb(255, 245, 226);
+    margin-top: 50px;
+}
+.inner{
+    margin: 40px;
+}
+.inner h1{
+    font-weight: 300;
+    margin: 10px;
+}
+.inner h4{
+    font-weight: 300;
+    margin: 10px;
+}
+input {
+    background-color: white;
+   margin: 5px 0px;
+    padding: 15px;
+}
+.input{
+    margin: 15px 0px;
+}
+.full{
+    width: 95%;
+}
+.half-input{
+    width: 90%;
+}
+table{
+    width: 100%;
+    margin: 30px 0px;
+}
+.selectgender{
+    padding: 10px;
+    width: 95%;
+}
+.select-full{
+    width: 98%;
+    background-color: white;
+    margin: 5px 0px;
+     padding: 15px;
+}
+.quad-input{
+    width: 80%;
+}
+h2{
+    margin: 20px 0px;
+    font-weight: 200;
+}
+.input{
+    border: 2px solid rgb(255, 225, 170);
+    border-radius: 5px;
+}
+.button{
+    color: white;
+    background-color:rgb(255, 187, 59) ;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 20px;
+}
+.button:hover{
+    background-color: maroon;
+}
+footer{
+    margin-top: 50px;
+    background-color: #232936;
+    display: grid;
+    grid-template-columns: 3fr 2fr 4fr 3fr;
+    padding: 50px 250px 50px 250px;
+    gap: 30px;
+    
+}
+footer div img{
+    width: 300px;
+}
+footer div h3{
+    color: white;
+    margin-bottom: 20px;
+}
+/* footer div li{
+    padding: 15px 0px;
+} */
+.gray{
+    color: lightgray;
+line-height:30px ;
+font-size: 15px;
+}
+.list{
+    line-height: 40px;
+}
+.list2{
+    list-style-type: none;
+    list-style-position: inside;
+}
+.emailsvg{
+    position: relative;
+    top: 8px;
+}
+.icons{
+    padding-top: 20px;
+}
+.icons-gap{
+    padding: 5px;
+}
+@media only screen and (max-width:1050px)
+{
+.navbar-btn{
+    display: none;
+}
+nav{
+    flex-direction:column;
+}
+.inner h1{
+    font-size: 25px;
+}
+.inner h4{
+    font-size: 15px;
+}
+.main{
+    width: 95vw;
+    color: rgb(126, 0, 93);
+}
+
+}

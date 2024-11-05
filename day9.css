@@ -1,0 +1,14 @@
+div{
+    width: 50%;
+    height: 100px;
+    animation: ani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes ani{
+    0%{background-color: aqua;}
+    20%{background-color: rosybrown;}
+    60%{background-color: gray;}
+    100%{background-color: beige;}
+}
