@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #A59132;
+}
+.heading{
+    text-align: center;
+    color: #30362F;
+    font-size: 4rem;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 70vmin;
+    height: 70vmin;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.btn{
+    height:20vmin ;
+    width: 20vmin;
+    margin: auto;
+    border: none;
+    color: #A59132;
+    background-color: #30362F;
+    box-shadow: 0px 2px 5px white;
+    font-size: 80px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.turn{
+    font-size: 3rem;
+    text-align: center;
+    background-color: #30362F;
+    color: #A59132;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 50px;
+}
+.shadow{
+    box-shadow: 0px 5px 15px white;
+}
+
+.winner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: #30362F;
+    color: white;
+    margin: auto;
+    font-size: 5rem;
+    height: 30vmin;
+    width: 100vmin;
+    margin-top: 100px;
+    display: none;
+    color: #A59132;
+}
+.reset{
+    width: 200px;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    padding: 10px 20px 10px 40px;
+    background-color: #30362F;;
+    color: #A59132;
+    margin-top: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.newgame{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: auto;
+    width: 50vmin;
+    padding: 10px;
+    border: 6px solid #30362F;
+    color: #30362F;
+    margin-top: 30px;
+    border-radius: 30px;
+    display: none;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.newgame:hover{
+    background-color: #30362F;
+    color: #A59132;
+}
+@media only screen and (max-width:1024px){
+    .heading{
+        font-size: 2rem;
+    }
+.outer{
+    flex-direction: column;
+}
+
+.turn{
+    font-size: 2rem;
+padding: 5px;
+height: 60px;
+}
+.winner{
+    font-size: 2rem;
+    width: 60vw;
+    text-align: center;
+}
+.btn{
+    font-size: 50px;
+}
+.newgame{
+    font-size: 1.5rem;
+
+}
+}
